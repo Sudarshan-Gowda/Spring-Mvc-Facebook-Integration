@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Integration</title>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+
+		<div class="gmail-header">
+			<marquee>
+				<span>User Data Fetched from Face book Account</span>
+			</marquee>
+		</div>
+
+		<div class="gmail-data">
+
+			<div>
+				<label>First Name :</label> <span th:text="${firstname}"> </span>
+			</div>
+
+			<div>
+				<label>Last Name :</label> <span th:text="${lastname}"></span>
+			</div>
+
+			<div>
+				<label>Email Address:</label><span th:text="${email}"></span>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="star-back-btn">
+		<a th:href="@{/}"><span id="str-lgt">Back</span></a>
+	</div>
+
+
+	<div id="star-body-form">
+		<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+			<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+		</div>
+	</div>
+
+</body>
+</html>

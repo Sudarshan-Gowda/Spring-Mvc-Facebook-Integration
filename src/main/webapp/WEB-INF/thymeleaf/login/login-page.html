@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Facebook Integration</title>
+</head>
+<body>
+
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+		<!--header-->
+		<div class="container">
+
+			<div class="gmail-header">
+				<marquee>
+					<span>FaceBook Integration with Spring MVC</span>
+				</marquee>
+			</div>
+
+			<div class="col-sm-2 gmail-link">
+				<div class="col-sm-2">
+					<a class="gdb-reg-next"><fb:login-button
+							onlogin="checkLoginState();"
+							style="background-color: #3B579D !important; width: 50px !important; border-radius: 40px !important; height: 50px !important; color: #fff !important; padding: 15px !important;">
+
+							<div
+								style="background-color: #3B579D !important; width: 50px !important; border-radius: 40px !important; height: 50px !important; color: #fff !important; padding: 15px !important;">
+
+								<i class="fa fa-facebook fa-2x"></i>
+							</div>
+							<label>Facebook</label>
+						</fb:login-button> </a>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="col-lg-12 col-sm-12 col-xs-12 copyrights-login">
+		<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+	</div>
+
+</body>
+</html>
