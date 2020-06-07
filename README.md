@@ -30,10 +30,6 @@
   
  # Tools Used
  Eclipse - Mars                                                                                                                        
- Sevrver - Wildfly 10                                                                                                                   
 
-If you people get any issues regarding this repository means, feel free to comment, I will help you guys to run this repository sucessfully.                                                                                                                      
-
-Thank u guys..                                                                                                                      
-Have a great day.   
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Facebook-Integration/blob/master/docs/picture1.png"/>
 
